@@ -95,3 +95,32 @@
 .education-button:hover {
   background: #1d4ed8;
 }
+
+.experience-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #f9fafb;
+}
+
+.experience-card h2 {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.delete-button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background: #dc2626;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.delete-button:hover {
+  background: #b91c1c;
+}

@@ -21,3 +21,28 @@ body {
   flex-direction: column;
   gap: 2rem; 
 }
+
+.button-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin: 2rem 0;          /* optional spacing above/below */
+}
+
+
+.SubmitPDF {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  
+}
+
+.SubmitPDF:hover {
+  background: #1d4ed8;
+}
